@@ -1,0 +1,49 @@
+body{
+    background-image: url(../images/DSCN3589.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+p{
+    font-size: 12pt;
+    font-family: arial,helvetica;
+    font-weight: normal;
+}
+h1{
+    font-size: 36pt;
+    font-family: verdana,arial;
+    text-decoration: blink;
+    text-align: center;
+    background-color: #666;
+    border-radius: 20pt;
+}
+th{
+    background-color: #000;
+}
+li{							/*selectores de etiqueta*/
+    height: 30px; 
+    width: 180px; 
+    left: 10pt;
+    top: 30pt; 
+    position:relative; 		/*En función a los atributos height y width*/
+    visibility:visible;
+    font-family:initial;
+    border: 3px solid #09F;
+	font-size:25pt;	  
+	text-align:center;	
+    line-height:27pt;/*Tamaño del elemento li en vertical, es decir, su altura.*/	
+	box-shadow: 50pt 10pt 50pt black;
+	border-style:groove;
+}
+a{
+	color:rgb(124, 200, 150);
+	text-decoration:none;
+}
+a:hover{
+    font-weight:bold;
+    color: rgb(200, 200, 200);
+}
+ul{
+    padding-left:4px;	/*Espacio insertado, por la izquierda, entre el borde del elemento continente(capa) y el contenido de este(ul) li's*/
+}

@@ -1,0 +1,12 @@
+body{
+    background-image: url(../images/mishu.jpg);
+    background-size: 800px;
+}
+h3{
+    font-size: 36pt;
+    font-family: verdana,arial;
+    text-decoration: blink;
+    text-align: center;
+    background-color: #666;
+    border-radius: 20pt;
+}
